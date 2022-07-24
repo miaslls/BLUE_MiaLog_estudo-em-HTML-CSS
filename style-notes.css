@@ -1,0 +1,27 @@
+@import url("https://use.typekit.net/afj3hjl.css");
+
+* {
+  /* border: #9a9a9a 1px dotted; */
+}
+
+#notes-element {
+  position: relative;
+}
+
+#notes-container {
+  width: 50px;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffdf7c;
+  box-shadow: inset 2px 2px 0px 2px #eec860, 5px 5px 30px #00000050;
+  font-size: 75%;
+}
+
+#notes-title {
+  transform: rotate(-45deg);
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
