@@ -41,14 +41,14 @@
   flex-wrap: wrap;
   gap: 1px;
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 10%;
 }
 
 .creditcard-chip-part {
   width: 45%;
   height: 45%;
-  background: #e3b345;
+  background: #ffdf7c;
 }
 
 #chip-part-a1 {
