@@ -1,17 +1,22 @@
 /* ADOBE FONTS */
 @import url("https://use.typekit.net/afj3hjl.css");
 
+/* REMIX ICONS */
+@import url("https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css");
+
 /* ELEMENT STYLES */
 
 @import "landscape/style-letter.css";
 @import "landscape/style-planner.css";
 @import "landscape/style-notes.css";
 @import "landscape/style-journal.css";
+@import "landscape/style-businesscard.css";
 
 @import "portrait/style-letter.css" (orientation: portrait);
 @import "portrait/style-planner.css" (orientation: portrait);
 @import "portrait/style-notes.css" (orientation: portrait);
 @import "portrait/style-journal.css" (orientation: portrait);
+@import "portrait/style-businesscard.css" (orientation: portrait);
 
 * {
   box-sizing: border-box;
@@ -68,10 +73,11 @@ main {
 
 .element-label-text {
   text-align: center;
+  font-size: 90%;
 }
 
 .element-label-text h2 {
-  font-size: larger;
+  font-size: 110%;
   box-sizing: content-box;
   margin-bottom: 5%;
 }
@@ -84,21 +90,3 @@ main {
 .element-label-text {
   font-size: medium;
 }
-
-#taped-note-element {
-  position: absolute;
-  bottom: 5%;
-  right: 3%;
-}
-
-/* #taped-note-container {
-  width: 180px;
-  font-size: medium;
-}
-
-#taped-note-text {
-  width: 100%;
-  position: absolute;
-  top: 45%;
-  text-align: center;
-} */
