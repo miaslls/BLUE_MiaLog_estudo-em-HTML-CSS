@@ -6,10 +6,12 @@
 @import "landscape/style-letter.css";
 @import "landscape/style-planner.css";
 @import "landscape/style-notes.css";
+@import "landscape/style-journal.css";
 
 @import "portrait/style-letter.css" (orientation: portrait);
 @import "portrait/style-planner.css" (orientation: portrait);
 @import "portrait/style-notes.css" (orientation: portrait);
+@import "portrait/style-journal.css" (orientation: portrait);
 
 * {
   box-sizing: border-box;
@@ -85,11 +87,11 @@ main {
 
 #taped-note-element {
   position: absolute;
-  bottom: 10%;
-  right: 10%;
+  bottom: 5%;
+  right: 3%;
 }
 
-#taped-note-container {
+/* #taped-note-container {
   width: 180px;
   font-size: medium;
 }
@@ -99,4 +101,4 @@ main {
   position: absolute;
   top: 45%;
   text-align: center;
-}
+} */
