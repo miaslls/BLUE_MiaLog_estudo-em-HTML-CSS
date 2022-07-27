@@ -1,83 +1,45 @@
 #letter-element {
-  position: absolute;
-  bottom: 20%; /* ❗ */
-  left: 15%; /* ❗ */
-  transform: rotate(-8deg);
+  bottom: 20%;
+  left: 15%;
 }
 
 #letter-element > div {
-  box-shadow: 2.5px 2.5px 15px #00000050; /* ❗ */
+  box-shadow: 2.5px 2.5px 15px #00000050;
 }
 
 #letter-element-label {
-  bottom: 10%;
+  bottom: 7%;
   left: 5%;
 }
 
 #letter-element-label-arrow {
-  width: 25px; /* ❗ */
-  top: -80%;
-  left: 120%;
-}
-
-#letter-element-label-text {
-  transform: rotate(10deg);
+  width: 25px;
 }
 
 /* 📌 LETTER */
 
 #letter-container {
-  width: 60px; /* ❗ */
-  aspect-ratio: 2/3;
-  padding: 15% 10%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  align-content: flex-start;
-  justify-content: center;
-  background: #dddddd;
+  width: 60px;
 }
 
 #letter-logo {
-  display: none; /* ❗ */
+  display: none;
 }
 
 #letter-title {
-  font-family: new-order, sans-serif;
-  font-weight: 400;
-  font-size: 80%; /* ❗ */
-}
-
-#letter-title span {
-  font-weight: 600;
+  font-size: 80%;
 }
 
 /* 📌 ENVELOPE */
 
 #envelope-container {
-  width: 60px; /* ❗ */
-  aspect-ratio: 2/1.1;
-  background: #ffdf7c;
-  position: absolute;
-  bottom: 15%;
-  left: -25%;
-  transform: rotate(-15deg);
+  width: 60px;
 }
 
 #envelope-flap {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 15px 30px 0 30px; /* ❗ */
-  border-color: #ffd044 transparent transparent transparent;
+  border-width: 15px 30px 0 30px;
 }
 
 #envelope-label {
-  width: 30%;
-  aspect-ratio: 2/0.75;
-  background: #ffffff90;
   border-radius: 1.5px;
-  position: absolute;
-  bottom: 15%;
-  right: 7%;
 }
