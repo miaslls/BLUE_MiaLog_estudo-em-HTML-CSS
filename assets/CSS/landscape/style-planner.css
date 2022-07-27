@@ -5,14 +5,15 @@
 }
 
 #planner-element-label {
-  top: 40%;
+  top: 45%;
   left: 30%;
 }
 
 #planner-element-label-arrow {
-  width: 70px;
-  top: 10%;
-  left: 120%;
+  width: 60px;
+  top: 0%;
+  left: 130%;
+  transform: rotate(-20deg);
 }
 
 #planner-element-label-text {

@@ -1,6 +1,6 @@
 #journal-element {
-  top: 30%;
-  right: 20%;
+  top: 40%;
+  right: 17%;
   transform: rotate(5deg);
 }
 
@@ -12,12 +12,12 @@
 }
 
 #journal-element-label {
-  top: 10%;
-  right: 11%;
+  top: 20%;
+  right: 8%;
 }
 
 #journal-element-label-arrow {
-  width: 60px;
+  width: 55px;
   top: 110%;
   left: 60%;
   transform: rotate(-20deg);
