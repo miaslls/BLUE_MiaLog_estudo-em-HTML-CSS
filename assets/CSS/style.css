@@ -75,14 +75,37 @@ main {
   position: absolute;
 }
 
-@media screen and (orientation: landscape) {
-  .element-label-text {
-    font-size: medium;
-  }
+.element-label-text {
+  font-size: medium;
 }
 
 @media screen and (orientation: portrait) {
   .element-label-text {
     font-size: small;
   }
+}
+
+#taped-note-element {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+
+#taped-note-container {
+  width: 180px;
+  font-size: medium;
+}
+
+@media screen and (orientation: portrait) {
+  #taped-note-container {
+    width: 90px;
+    font-size: x-small;
+  }
+}
+
+#taped-note-text {
+  width: 100%;
+  position: absolute;
+  top: 45%;
+  text-align: center;
 }
