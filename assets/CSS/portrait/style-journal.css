@@ -1,5 +1,6 @@
 #journal-element {
-  top: 70%;
+  top: unset;
+  bottom: 17%;
   right: 20%;
 }
 
