@@ -23,3 +23,13 @@ body {
   font-family: new-order, sans-serif;
   color: #00000090;
 }
+
+main {
+  width: 1000px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  border: #9a9a9a 1px dotted;
+}
