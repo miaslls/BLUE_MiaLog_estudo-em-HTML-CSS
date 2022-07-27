@@ -3,14 +3,12 @@
 
 /* ELEMENT STYLES */
 
+@import "landscape/style-letter.css" (orientation: landscape);
+@import "portrait/style-letter.css" (orientation: portrait);
+
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
   box-sizing: border-box;
   outline: none;
-
-  border: #9a9a9a 1px dotted;
 }
 
 body {
@@ -22,9 +20,15 @@ body {
   justify-content: center;
   background: #a0cbd2;
   background: linear-gradient(120deg, #a0cbd2 0%, #93c3cf 35%, #5a98a7 100%);
-  font-family: marydale, sans-serif;
+  font-family: six-hands-marker, marydale, sans-serif;
   font-weight: 700;
   color: #00000090;
+}
+
+main {
+  position: relative;
+  /* 🐞 */
+  border: #9a9a9a 1px dotted;
 }
 
 @media screen and (orientation: landscape) {
@@ -38,5 +42,35 @@ body {
   main {
     width: 350px;
     height: 600px;
+  }
+}
+
+.element {
+  font-family: new-order, sans-serif;
+  font-weight: 400;
+}
+
+.element-label {
+  position: absolute;
+}
+
+.element-label-text {
+  text-align: center;
+}
+
+.label-arrow {
+  opacity: 60%;
+  position: absolute;
+}
+
+@media screen and (orientation: landscape) {
+  .element-label-text {
+    font-size: x-large;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .element-label-text {
+    font-size: small;
   }
 }
