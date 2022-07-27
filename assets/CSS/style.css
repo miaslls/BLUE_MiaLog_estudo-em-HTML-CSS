@@ -1,0 +1,42 @@
+/* ADOBE FONTS */
+@import url("https://use.typekit.net/afj3hjl.css");
+
+/* ELEMENT STYLES */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  outline: none;
+
+  border: #9a9a9a 1px dotted;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background: #a0cbd2;
+  background: linear-gradient(120deg, #a0cbd2 0%, #93c3cf 35%, #5a98a7 100%);
+  font-family: marydale, sans-serif;
+  font-weight: 700;
+  color: #00000090;
+}
+
+@media screen and (orientation: landscape) {
+  main {
+    width: 1000px;
+    height: 500px;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  main {
+    width: 350px;
+    height: 600px;
+  }
+}
