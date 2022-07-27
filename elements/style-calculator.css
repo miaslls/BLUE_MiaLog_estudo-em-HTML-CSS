@@ -6,10 +6,6 @@
   font-style: normal;
 }
 
-* {
-  /* border: #9a9a9a 1px dotted; */
-}
-
 #calculator-container {
   width: 60px;
   aspect-ratio: 2/3;
