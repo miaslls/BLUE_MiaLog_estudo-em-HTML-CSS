@@ -5,9 +5,11 @@
 
 @import "landscape/style-letter.css";
 @import "landscape/style-planner.css";
+@import "landscape/style-notes.css";
 
 @import "portrait/style-letter.css" (orientation: portrait);
 @import "portrait/style-planner.css" (orientation: portrait);
+@import "portrait/style-notes.css" (orientation: portrait);
 
 * {
   box-sizing: border-box;

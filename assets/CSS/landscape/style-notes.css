@@ -1,5 +1,22 @@
 #notes-element {
-  position: relative;
+  bottom: 5%;
+  left: 36%;
+  transform: rotate(-12deg);
+}
+
+#notes-element-label {
+  bottom: 20%;
+  left: 24%;
+}
+
+#notes-element-label-arrow {
+  width: 35px;
+  bottom: -90%;
+  left: 90%;
+}
+
+#notes-element-label-text {
+  transform: rotate(-45deg);
 }
 
 #notes-container {
