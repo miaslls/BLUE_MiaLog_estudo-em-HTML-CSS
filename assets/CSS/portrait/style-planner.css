@@ -1,15 +1,10 @@
+#planner-element-label {
+  display: none;
+}
+
 #planner-element {
   top: 35%;
   right: 25%;
-}
-
-#planner-element-label {
-  top: 22%;
-  left: 15%;
-}
-
-#planner-element-label-arrow {
-  width: 35px;
 }
 
 #planner-outer-container {

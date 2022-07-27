@@ -1,17 +1,10 @@
+#notes-element-label {
+  display: none;
+}
+
 #notes-element {
   top: 42%;
   left: 43%;
-}
-
-#notes-element-label {
-  top: 39%;
-  left: 14%;
-}
-
-#notes-element-label-arrow {
-  width: 17.5px;
-  top: 8%;
-  left: 80%;
 }
 
 #notes-container {

@@ -96,16 +96,15 @@ main {
   font-size: medium;
 }
 
-@media screen and (orientation: portrait) {
-  #taped-note-container {
-    width: 90px;
-    font-size: x-small;
-  }
-}
-
 #taped-note-text {
   width: 100%;
   position: absolute;
   top: 45%;
   text-align: center;
+}
+
+@media screen and (orientation: portrait) {
+  #taped-note-element {
+    display: none;
+  }
 }
