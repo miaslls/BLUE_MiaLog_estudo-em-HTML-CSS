@@ -48,6 +48,10 @@ main {
     width: 350px;
     height: 600px;
   }
+
+  .element-label {
+    display: none;
+  }
 }
 
 .element {
@@ -79,12 +83,6 @@ main {
   font-size: medium;
 }
 
-@media screen and (orientation: portrait) {
-  .element-label-text {
-    font-size: small;
-  }
-}
-
 #taped-note-element {
   position: absolute;
   bottom: 10%;
@@ -101,10 +99,4 @@ main {
   position: absolute;
   top: 45%;
   text-align: center;
-}
-
-@media screen and (orientation: portrait) {
-  #taped-note-element {
-    display: none;
-  }
 }
