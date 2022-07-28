@@ -1,9 +1,3 @@
-#businesscard-element {
-  top: 10%;
-  left: 55%;
-  transform: rotate(5deg);
-}
-
 #businesscard-element-label {
   top: 13%;
   right: 25%;
@@ -16,7 +10,10 @@
   transform: rotate(-5deg);
 }
 
-#businesscard-element-label-text {
+#businesscard-element {
+  top: 10%;
+  left: 55%;
+  transform: rotate(5deg);
 }
 
 #businesscard-container {
