@@ -5,7 +5,7 @@
 
 #planner-element-label-arrow {
   width: 50px;
-  top: 0%;
+  top: 15%;
   left: 130%;
   transform: rotate(-20deg);
 }
