@@ -6,6 +6,28 @@
   font-style: normal;
 }
 
+#calculator-element-label {
+  top: 5%;
+  left: 23%;
+}
+
+#calculator-element-label-arrow {
+  width: 40px;
+  top: 150%;
+  left: 25%;
+  transform: scaleX(-1) rotate(30deg);
+}
+
+#calculator-element-label-text {
+  transform: rotate(-5deg);
+}
+
+#calculator-element {
+  top: 20%;
+  left: 32%;
+  transform: rotate(10deg);
+}
+
 #calculator-container {
   width: 60px;
   aspect-ratio: 2/3;
