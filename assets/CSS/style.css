@@ -43,8 +43,6 @@ body {
 
 main {
   position: relative;
-  /* 🐞 */
-  border: #9a9a9a 1px dotted;
 }
 
 @media screen and (orientation: landscape) {
