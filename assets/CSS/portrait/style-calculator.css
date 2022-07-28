@@ -1,3 +1,12 @@
+#calculator-element-label {
+  top: 3%;
+  left: 8%;
+}
+
+#calculator-element-label-arrow {
+  width: 20px;
+}
+
 #calculator-element {
   top: 10%;
   left: 25%;

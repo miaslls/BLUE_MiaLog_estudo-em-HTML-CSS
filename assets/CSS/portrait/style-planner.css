@@ -1,5 +1,22 @@
+#planner-element-label {
+  top: 39%;
+  left: 25%;
+}
+
+#planner-element-label-arrow {
+  width: 30px;
+  top: -30%;
+  left: 120%;
+  transform: rotate(-20deg);
+}
+
+#planner-element-label-text {
+  transform: rotate(-8deg);
+}
+
 #planner-element {
-  top: 35%;
+  top: 46%;
+  left: unset;
   right: 25%;
 }
 

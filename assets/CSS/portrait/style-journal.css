@@ -1,7 +1,23 @@
+#journal-element-label {
+  top: 73%;
+  right: 33%;
+}
+
+#journal-element-label-arrow {
+  width: 27.5px;
+  top: 140%;
+  left: 60%;
+  transform: scaleX(-1) rotate(-10deg);
+}
+
+#journal-element-label-text {
+  transform: rotate(10deg);
+}
+
 #journal-element {
   top: unset;
-  bottom: 17%;
-  right: 20%;
+  bottom: 7%;
+  right: 13%;
 }
 
 #journal-body,

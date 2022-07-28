@@ -1,6 +1,18 @@
+#businesscard-element-label {
+  top: 3%;
+  right: 3%;
+  transform: rotate(-25deg);
+}
+
+#businesscard-element-label-arrow {
+  width: 12.5px;
+  bottom: 30%;
+  right: 110%;
+}
+
 #businesscard-element {
   top: 10%;
-  left: 70%;
+  left: 65%;
 }
 
 #businesscard-container {

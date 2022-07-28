@@ -60,7 +60,7 @@ main {
     height: 600px;
   }
 
-  .element-label {
+  .element-label ul {
     display: none;
   }
 }

@@ -1,6 +1,21 @@
+#notes-element-label {
+  top: 50%;
+  bottom: unset;
+  left: 20%;
+}
+
+#notes-element-label-arrow {
+  width: 15px;
+  bottom: -40%;
+}
+
+#notes-element-label-text {
+  transform: rotate(-45deg);
+}
+
 #notes-element {
-  top: 42%;
-  left: 43%;
+  top: 52%;
+  left: 50%;
 }
 
 #notes-container {
