@@ -11,12 +11,14 @@
 @import "landscape/style-notes.css";
 @import "landscape/style-journal.css";
 @import "landscape/style-businesscard.css";
+@import "landscape/style-creditcards.css";
 
 @import "portrait/style-letter.css" (orientation: portrait);
 @import "portrait/style-planner.css" (orientation: portrait);
 @import "portrait/style-notes.css" (orientation: portrait);
 @import "portrait/style-journal.css" (orientation: portrait);
 @import "portrait/style-businesscard.css" (orientation: portrait);
+@import "portrait/style-creditcards.css" (orientation: portrait);
 
 * {
   box-sizing: border-box;
@@ -32,7 +34,7 @@ body {
   justify-content: center;
   background: #a0cbd2;
   background: linear-gradient(120deg, #a0cbd2 0%, #93c3cf 35%, #5a98a7 100%);
-  font-family: six-hands-marker, marydale, sans-serif;
+  font-family: six-hands-marker, sans-serif;
   font-weight: 700;
   color: #00000090;
 }
