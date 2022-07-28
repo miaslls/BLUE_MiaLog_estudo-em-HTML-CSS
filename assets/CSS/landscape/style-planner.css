@@ -1,5 +1,5 @@
 #planner-element-label {
-  top: 45%;
+  top: 52%;
   left: 30%;
 }
 
@@ -15,7 +15,7 @@
 }
 
 #planner-element {
-  bottom: 10%;
+  bottom: 5%;
   left: 40%;
   transform: rotate(1deg);
 }

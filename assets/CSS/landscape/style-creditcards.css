@@ -1,5 +1,5 @@
 #creditcards-element-label {
-  top: 43%;
+  top: 48%;
   left: 57%;
   transform: rotate(-20deg);
 }
@@ -16,7 +16,7 @@
 
 #creditcards-element {
   display: flex;
-  top: 25%;
+  top: 30%;
   left: 45%;
   transform: rotate(-10deg);
 }
