@@ -10,16 +10,16 @@ Para visualizar essa página em <img src="assets/img/flag-pt-br.png" width="14" 
 ![Static Badge: HTML](https://img.shields.io/badge/HTML-5a5a5a?logo=html5)
 ![Static Badge: CSS](https://img.shields.io/badge/CSS-5a5a5a?logo=css3)
 
-Vector-like images, designed with HTML and CSS as icons for a productivity app.
+Imagens semelhantes a vetores, desenhadas com HTML e CSS como ícones para um aplicativo de produtividade.
 
-Designs available:
+Designs disponíveis:
 
-- envelope & letter
-- calculator
-- credit cards
-- business card
-- journal & pencil
-- planner & post-its
+- envelope e carta
+- calculadora
+- cartões de crédito
+- cartão de visita
+- diário e lápis
+- planner e post-its
 
 ## 🔗 Demo
 
@@ -29,10 +29,10 @@ Designs available:
 
 [<img src="assets/img/thumb.jpg" alt="MiaLog App Screenshot">](assets/img/screenshot.jpg)
 
-## 👩‍💻 Authors
+## 👩‍💻 Autoria
 
 - [@miaslls](https://www.github.com/miaslls)
 
-## 🫶 Acknowledgements
+## 🫶 Recursos / Agradecimentos
 
 - [Freepik](https://freepik.com)
