@@ -5,8 +5,7 @@ Para visualizar essa página em <img src="assets/img/flag-pt-br.png" width="14" 
 
 # <img src="assets/img/logo.png" width="22" alt="Project logo"> MiaLog
 
-![Static Badge: Personal](https://img.shields.io/badge/personal-mediumpurple)
-![Static Badge: Version - 1.0.0](https://img.shields.io/badge/version-1.0.0-green)
+![Static Badge: Study](https://img.shields.io/badge/study-blue)
 ![Static Badge: HTML](https://img.shields.io/badge/HTML-5a5a5a?logo=html5)
 ![Static Badge: CSS](https://img.shields.io/badge/CSS-5a5a5a?logo=css3)
 
