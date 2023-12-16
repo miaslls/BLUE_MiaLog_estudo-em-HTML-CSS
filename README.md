@@ -22,7 +22,7 @@ Designs available:
 
 ## 🔗 Demo
 
-- [miaslls.github.io/MiaLog](http://miaslls.github.io/MiaLog/)
+- [mialog.camilasalles.dev](https://mialog.camilasalles.dev/)
 
 ## 🖼️ Screenshots
 
